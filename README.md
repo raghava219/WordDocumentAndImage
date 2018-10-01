@@ -7,5 +7,6 @@ jar cmf ImageResizer.mf ImageResizer.jar ImageResizer.class ImageResizer.java
 # Following is the command for executing the Jar file
 java -jar ImageResizer.jar config.properties
 
+java -cp ImageResizer.jar ImageResizer config.properties
 
 
